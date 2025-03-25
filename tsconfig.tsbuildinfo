@@ -1,1 +1,1 @@
-{"root":["./src/a.ts","./src/class.ts","./src/object.ts"],"errors":true,"version":"5.8.2"}
+{"root":["./src/a.ts","./src/array.ts","./src/class.ts","./src/object.ts"],"version":"5.8.2"}
