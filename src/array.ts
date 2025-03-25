@@ -15,7 +15,6 @@ let max = maxValue([1, 2, 35, 33, 2343, 33, 4323]);
 
 
 
-
 interface User {
   firstName: string;
   lastName: string;
