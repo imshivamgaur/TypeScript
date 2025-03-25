@@ -26,9 +26,9 @@ function identify<T>(arg: T) {
   return arg;
 }
 
-let output1 = identify("myString");
-let output2 = identify(34);
-let output3 = identify(true);
+let output1 = identify<string>("myString"); // If you not want to give the type from here so it can assume itself.
+let output2 = identify<number>(34);
+let output3 = identify<boolean>(true);
 
 // console.log(output1);
 // console.log(output2);
